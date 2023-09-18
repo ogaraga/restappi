@@ -1,0 +1,30 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "REST API EXERCISES",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogaraga"
+  },
+  "keywords": [
+    "ogaraga",
+    "raymond",
+    "rest",
+    "api",
+    "route"
+  ],
+  "author": "OGARAGA RAYMOND",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1"
+  }
+}
